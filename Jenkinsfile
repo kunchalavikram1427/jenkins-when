@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Example Deploy') {
             when {
-                branch 'dev'
+                branch 'master'
             }
             steps {
                 echo 'Deploying to target environment'
